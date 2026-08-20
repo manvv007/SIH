@@ -253,6 +253,47 @@ export default function ReportIssuePage() {
               </div>
             </div>
 
+            <div className="mt-4 rounded-xl bg-accent-amberSoft/70 ring-1 ring-accent-amber/30 px-4 py-4">
+              <div className="flex items-start gap-3">
+                <div className="shrink-0 h-9 w-9 rounded-lg bg-accent-amber/20 ring-1 ring-accent-amber/30 grid place-items-center">
+                  <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" className="text-accent-amber">
+                    <path d="M12 3 2 20h20z" strokeLinejoin="round"/>
+                    <path d="M12 10v5M12 18h.01" strokeLinecap="round"/>
+                  </svg>
+                </div>
+                <div className="min-w-0">
+                  <div className="text-sm font-extrabold text-amber-900">
+                    Vehicle Video / Photo Guidelines
+                  </div>
+                  <div className="mt-1.5 text-xs text-amber-900/90 leading-relaxed">
+                    For accurate AI analysis and authority review, please ensure your evidence:
+                  </div>
+                  <ul className="mt-2 space-y-1.5 text-xs text-amber-900/90">
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent-amber font-bold mt-0.5">✓</span>
+                      <span><strong>Clearly shows the entire vehicle</strong> — capture the full body, not just a partial view</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent-amber font-bold mt-0.5">✓</span>
+                      <span><strong>Number plate is readable</strong> — plate should be in focus, front or rear view</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent-amber font-bold mt-0.5">✓</span>
+                      <span><strong>Shows road context</strong> — include lane markings, signals, or the violation in action</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent-amber font-bold mt-0.5">✓</span>
+                      <span><strong>Video: 10–60 seconds</strong> — record the violation from start to end, avoid shaky footage</span>
+                    </li>
+                    <li className="flex items-start gap-2">
+                      <span className="text-accent-amber font-bold mt-0.5">✓</span>
+                      <span><strong>Good lighting</strong> — avoid glare, dark areas, or heavily blurred motion</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             <label
               className={cn(
                 'mt-4 cursor-pointer block rounded-xl border-2 border-dashed transition',
